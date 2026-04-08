@@ -7,7 +7,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
 // For physical devices, use the specific IP address of the machine running the Django server (e.g., your laptop's Wi-Fi IP)
-const BASE_URL = 'http://192.168.43.7:8000/api';
+const BASE_URL = 'https://agrisafeapp-production.up.railway.app/api';
 
 export const apiClient = axios.create({
     baseURL: BASE_URL,
@@ -112,3 +112,4 @@ export const getAdminStats = async () => {
 };
 
 export default apiClient;
+
