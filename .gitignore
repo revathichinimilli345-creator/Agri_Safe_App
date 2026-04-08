@@ -1,0 +1,24 @@
+# --- Backend (Django/Python) ---
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/db.sqlite3
+backend/training_report.txt
+backend/evaluate.py
+backend/training_report.txt
+
+# --- Mobile App (Node/Expo) ---
+mobile_app/node_modules/
+mobile_app/.expo/
+mobile_app/dist/
+mobile_app/web-build/
+mobile_app/expo-env.d.ts
+mobile_app/npm-debug.*
+mobile_app/yarn-debug.*
+mobile_app/yarn-error.*
+
+# --- Global / OS Files ---
+.DS_Store
+Thumbs.db
+.env
+.env*.local
